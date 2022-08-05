@@ -1,9 +1,10 @@
-function totalMark(arguments){
+function totalMark(...arguments){
     let sum = 0;
-    for(let i = 0; i<arguments.length; i++){
-        sum += i
+    for(let i = 0; i < arguments.length; i++){
+        sum += arguments[i];
     }
-    let ghor = sum / arguments.length;
+    let totalAssigment = arguments.length;
+    let ghor = sum / totalAssigment;
 
     return ghor;
 }
