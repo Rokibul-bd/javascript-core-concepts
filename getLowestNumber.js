@@ -11,3 +11,4 @@ function getLowestNumber(numbers){
 const height = [150,190,250,140,160,130,245,222];
 
 console.log(getLowestNumber(height))
+console.log(Math.max(20,30,10,15))
