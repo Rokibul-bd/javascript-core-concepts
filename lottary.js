@@ -6,5 +6,5 @@ function lottary(number){
     }
     return ` ${result} Congratulation you are winner`
 }
-const arr = ['Rakib','Jannat','Mim','Bristy']
-console.log(lottary(arr))
+const arr = ['Rakib','Jannat','Mim','Bristy'];
+console.log(lottary(arr));
